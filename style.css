@@ -1,0 +1,194 @@
+body {
+    font-family: Verdana;
+    -webkit-print-color-adjust: exact;
+    margin: 30px auto;
+    line-height: 20px;
+}
+
+#main-wrapper::after {
+    content: '';
+    height: 1500px;
+    background: url(bg.png);
+    background-repeat: repeat;
+    opacity: 0.12;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: 100%;
+}
+
+header {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+nav {
+    height: 40px;
+    background-color: #4f90cd;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-element {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#header-text {
+    padding-top: 67px;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    float: left;
+    background: url(resume-pic.jpg);
+    background-size: 105%;
+    background-position: -21% 82%;
+    margin-right: 15px;
+}
+
+.heading {
+    color: #4f90cd;
+    margin: 15px 0;
+}
+
+#wrapper-section {
+    margin: 25px;
+}
+
+.fab,
+.fas {
+    vertical-align: initial;
+    padding: 10px;
+}
+
+.fa-2x {
+    font-size: 1.2em;
+}
+
+.key-skills {
+    background: #4f90cd;
+    padding: 4px;
+    margin: 1px;
+    color: #ffff;
+    border-radius: 5px;
+    display: inline;
+}
+
+.key-skills-set {
+    /* margin: 15px 5px; */
+    text-align: left;
+    font-size: 10px;
+}
+
+h1,
+h3,
+h5,
+p {
+    margin: 8px 0 0 0;
+    color: #000;
+    font-weight: lighter;
+}
+
+p.project-skills {
+    margin: 2px 0 0 0;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul {
+    color: #000;
+}
+
+ul.no-list-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+}
+
+ul.no-list-style li {
+    margin: 10px 0;
+}
+
+.name {
+    font-size: 32px;
+}
+
+.designation {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.role {
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.theme-color {
+    color: #4f90cd;
+}
+
+.text-color-black {
+    color: #4f90cd;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.highlights-list {
+    margin: 0;
+    padding: 1px 0 0 25px;
+    line-height: 0.5em;
+    list-style-type: circle;
+}
+
+.education {
+    margin: 0 8px;
+    text-align: left;
+}
+
+.education div {
+    margin: 10px 0px;
+}
+
+.no-list-style .text-color-black {
+    font-style: normal;
+}
+
+.company-name {
+    font-size: 22px;
+    color: #4f90cd;
+    margin: 0 0 5px 0;
+    text-underline-position: under;
+}
+
+.project-details {
+    margin: 25px 0 25px 0;
+}
+
+.project-name {
+    font-size: 20px;
+    color: #4f90cd;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #4f90cd;
+    background-color: #4f90cd;
+}

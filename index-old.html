@@ -1,0 +1,402 @@
+<html>
+
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <style>
+        body {
+            width: 90%;
+            margin: 30px auto;
+            font-family: 'Ubuntu', sans-serif;
+            line-height: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* font-weight: bolder; */
+        }
+        
+        #main-wrapper::after {
+            content: "";
+            height: 1500px;
+            background: url(bg6.png);
+            background-repeat: repeat;
+            opacity: 0.12;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+            background-size: 100%;
+        }
+        
+        header {
+            height: 200px;
+            margin-bottom: 15px;
+        }
+        
+        nav {
+            height: 50px;
+            background-color: #4F90CD;
+            margin: auto;
+            text-align: center;
+            color: #fff;
+        }
+        
+        section {
+            margin: 15px 0;
+            color: #fff;
+        }
+        
+        article {
+            margin: 3px;
+            padding: 5px;
+        }
+        
+        #left-section {
+            float: left;
+            width: 36%;
+        }
+        
+        #right-section {
+            float: right;
+            width: 62%;
+        }
+        
+        #header-text {
+            padding-top: 98px;
+            font-size: 22px;
+        }
+        
+        #profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+            float: left;
+            background: url(resume-pic2.jpg);
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            background-size: 170%;
+            background-position: 25% 6%;
+            margin-right: 20px;
+        }
+        
+        .heading {
+            color: #4F90CD;
+            /* font-weight: bolder; */
+            margin: 15px 0;
+        }
+        
+        .fab,
+        .fas {
+            vertical-align: sub;
+            padding: 12px;
+        }
+        
+        .fa-2x {
+            font-size: 1.5em;
+        }
+        
+        .key-skills {
+            background: #4F90CD;
+            padding: 8px;
+            margin: 2px;
+            color: #ffff;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        
+        h1,
+        h3,
+        h5,
+        p {
+            margin: 8px 0 0 0;
+            color: #000;
+        }
+        
+        h3 {
+            font-size: 25px;
+        }
+        
+        ul {
+            color: #000;
+        }
+        
+        ul.no-list-style {
+            list-style-type: none;
+            margin: 0;
+            padding: 8px;
+        }
+        
+        ul.no-list-style li {
+            margin: 10px 0;
+        }
+        
+        .name {
+            color: #000;
+            font-size: 36px;
+            font-style: normal;
+        }
+        
+        .designation {
+            color: #000;
+            font-size: 16px;
+            margin-top: 18px;
+            font-style: normal;
+        }
+        
+        .role {
+            color: #000;
+            margin-top: 0px;
+            font-size: 16px;
+            font-style: normal;
+        }
+        
+        .nav-element {
+            position: relative;
+            top: 1px;
+            margin: 25px;
+        }
+        
+        .theme-color {
+            color: #4F90CD;
+        }
+        
+        .text-color-black {
+            color: #4F90CD;
+        }
+        
+        .highlights-list {
+            margin: 0;
+            padding: 1px 0 0 25px;
+        }
+        
+        .education {
+            margin: 0 8px;
+            text-align: left;
+        }
+        
+        .education div {
+            margin: 10px 0px;
+        }
+        
+        .no-list-style .text-color-black {
+            font-style: normal;
+        }
+        
+        .company-name {
+            font-size: 22px;
+            color: #4F90CD;
+            margin: 0 0 5px 0;
+            text-decoration: underline;
+            text-underline-position: under;
+        }
+        
+        .key-skills-set {
+            margin: 15px 5px;
+            text-align: left;
+        }
+        
+        .project-details {
+            margin: 15px 0 15px 0;
+        }
+        
+        .project-name {
+            font-size: 20px;
+            color: #4F90CD;
+            margin-bottom: 5px;
+            text-decoration: underline;
+            text-underline-position: under;
+        }
+        
+        hr {
+            border: none;
+            height: 3px;
+            color: #4F90CD;
+            background-color: #4F90CD;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <header>
+            <div id="profile-pic"> </div>
+            <div id="header-text">
+                <p class="name">Anand Yadav</p>
+                <p class="designation">Software Engineer</p>
+                <p class="role"></p>
+            </div>
+        </header>
+        <nav>
+            <span class="nav-element">
+                <i class="fas fa-envelope fa-2x"></i>anandyadav654@outlook.com</span>
+            <span class="nav-element">
+                <i class="fas fa-mobile-alt fa-2x"></i>+91 90744 09811</span>
+            <span class="nav-element">
+                <i class="fab fa-github fa-2x"></i>https://github.com/anand290793</span>
+        </nav>
+        <section>
+            <section id="left-section">
+                <article>
+                    <h3 class="heading">KEY SKILLS</h3>
+                    <hr>
+                    <div class="key-skills-set">
+                        <div class="key-skills">Phaser CE</div>
+                        <div class="key-skills">JS (Adv, ES2015+)</div>
+                        <div class="key-skills">HTML5-CSS3</div>
+                        <div class="key-skills">REST Services</div>
+                        <div class="key-skills">Agile</div>
+                        <div class="key-skills">Github</div>
+                        <div class="key-skills">TeamCity</div>
+                        <div class="key-skills">Octopus Deploy</div>
+                    </div>
+                </article>
+                <article>
+                    <h3 class="heading">HIGHLIGHTS</h3>
+                    <hr>
+                    <ul class="highlights-list">
+                        <li>
+                            <p>
+                                2+ years of experience in web development(Single Page Application and Online Casino Games).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Experience in managing a client-side projects. Have been responsible for client deployment and reporting.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Rewarded with outstanding performer award for excellent performance and timely delivery.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Conducted training sessions and trained new joinees and freshers.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Specific strengths and abilities includes: Can do attitude, good team player, quick to adapt and learn new technologies and a desire to excel, eager to work professionally and meet the requirements of the management within the given time frame.
+                            </p>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h3 class="heading">TECHNOLOGY STACK</h3>
+                    <hr>
+                    <div>
+                        <ul class="no-list-style">
+                            <li>
+                                <span class="text-color-black">Technologies – </span>
+                                </span>
+                                <span>JS (ES5-6), Phaser, REST Services, HTML5-CSS3, Bootstrap3
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text-color-black">Version and Project Management Tools – </span>
+                                </span>
+                                <span>Github, JIRA, Redmine, Octopus Deploy, TeamCity
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text-color-black">Tools – </span>
+                                </span>
+                                <span>NPM, Gulp, Sublime Text 2, VS code, Source Tree
+                                </span>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="text-color-black">Operating Systems – </span>
+                                    </span>
+                                    <span>Windows
+                                    </span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h3 class="heading">EDUCATION</h3>
+                    <hr>
+                    <div class="education">
+                        <div>
+                            <span class="text-color-black">Bachelor of Engineering in Computer Science (2016) – </span>
+                            <p>Swami Vivekanand College of Engineering (68%)</p>
+                        </div>
+                        <div>
+                            <span class="text-color-black">SSCE - CBSE (2012) – </span>
+                            <p>Chameli Devi Public School (60.8%)</p>
+                        </div>
+                        <div>
+                            <span class="text-color-black">SSE - CBSE (2010) – </span>
+                            <p>Chameli Devi Public School (76%)</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="right-section">
+                <article>
+                    <h3 class="heading">WORK EXPERIENCE</h3>
+                    <hr>
+                    <br>
+                    <article>
+                        <div>
+                            <h5 class="company-name">Zensar Technologies Pvt. Ltd. (12/2016 – Present)</h5>
+                            <br>
+                            <div class="project-details">
+                                <h5 class="project-name">Derivco Game Porting</h5>
+                                <p class="project-description">Derivco is an online casino gaming client. The programme is all about to deliver and maintain slot games developed in various JS frameworks. The requirements were dynamic according to the market revenues at the given time.
+                                    Games - Game Of Thrones, Rugby Star, Ladies Night, Mega Moolah, Age of Discovery, Reel Thunder.
+                                </p>
+                                <p class="project-skills">
+                                    <span class="text-color-black">Domain – </span>Online casino gaming</p>
+                                <p class="project-skills">
+                                    <span class="text-color-black">Skills – </span>Adv JS, Phaser, HTML5, CSS3, Agile</p>
+                                <p class="project-challenges">
+                                    <span class="text-color-black">Challenges – </span>To grasp new framework concepts and already developed game code base without any guidance and immediately starting working on it like a pro and to quickly adopt changing
+                                    client requirements.</p>
+                            </div>
+                            <br>
+                            <div class="project-details">
+                                <h5 class="project-name">Air Indigo - Chat Bots</h5>
+                                <p class="project-description">
+                                    Air Indigo Chat bot is online airline assistant having ability to assist users in flight details, ticket booking and tracking, redirecting to enquiry relevant web page, direct connecting to customer executive, etc.
+                                </p>
+                                <p class="project-skills">
+                                    <span class="text-color-black">Domain – </span>Artificial Intelligence</p>
+                                <p class="project-skills">
+                                    <span class="text-color-black">Skills – </span>NodeJs, API.AI, Facebook APIs, HTML5-CSS3, Webhooks
+                                </p>
+                                <p class="project-challenges">
+                                    <span class="text-color-black">Challenges – </span>To understand the application structure and articulate the artificial intelligence into it.</p>
+                            </div>
+                            <br>
+                            <div class="project-details">
+                                <h5 class="project-name">Living Digital - Hybrid Apps - Zen ROD, Zen Idea</h5>
+                                <p class="project-description">Zensar's mobile applications to provide single platform for sharing, communicating and representing. ZenROD: Zen - Return on Digital is an mobile application to collaborate Zensar's other digital apps(ZenVers, ZenTs, ZenHelp,
+                                    ZenIdea, etc). ZenIdea: The platform for sharing, presenting ideas with whole organization.
+                                </p>
+                                <p class="project-skills">
+                                    <span class="text-color-black">Domain – </span>Business</p>
+                                <p class="project-skills">
+                                    <span class="text-color-black">Skills – </span>Ionic Framework, AngularJs, HTML5-CSS3, NodeJs, Java</p>
+                                <p class="project-challenges">
+                                    <span class="text-color-black">Challenges – </span>To learn and understand mobile application development.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </article>
+
+            </section>
+        </section>
+    </div>
+</body>
+
+</html>
